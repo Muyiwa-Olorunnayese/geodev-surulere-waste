@@ -13,7 +13,7 @@ Rapid urban density and informal waste disposal in Surulere lead to clogged drai
 - **Settlement/Built-up Extents:** Residential and commercial building fabric or settlement extents to measure uncovered populated zones.
 
 ## 4. Where Each Dataset Comes From
-- **Surulere LGA Boundary:** GRID3 Nigeria Operational LGA Boundaries — [https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries) — Format: GeoPackage / Shapefile (~15 MB).
+- **Surulere LGA Boundary:** GRID3 Nigeria Operational LGA Boundaries — [[https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0)](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries) — Format: GeoPackage / Shapefile (~15 MB).
 - **Waste Collection Points:** OpenStreetMap via QuickOSM (Tags: `amenity=waste_disposal`, `amenity=waste_transfer_station`, `amenity=recycling`) — [https://www.openstreetmap.org](https://www.openstreetmap.org) — Format: GeoPackage (Extracted for Surulere).
 - **Road Network:** OpenStreetMap via QuickOSM (Tag: `highway=*`) — [https://www.openstreetmap.org](https://www.openstreetmap.org) — Format: GeoPackage (Extracted for Surulere).
 - **Settlement Extents:** GRID3 Nigeria Settlement Extents v4.1 — [https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1](https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1) — Format: GeoPackage (~40 MB).

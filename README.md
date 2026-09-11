@@ -11,4 +11,4 @@ An urban geospatial development project tracking waste management infrastructure
 - **Primary Data Sources:** GRID3 Nigeria & OpenStreetMap (QuickOSM)
 - **Programme:** GeoDev Lab Africa, Cohort One (2026)
 
-See [`project-brief.md`](project-brief.md) for full data source specifications and project scope.
+See `project-brief.md` for full data source specifications and project scope.

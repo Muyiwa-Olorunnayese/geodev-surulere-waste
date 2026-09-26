@@ -12,3 +12,9 @@ An urban geospatial development project tracking waste management infrastructure
 - **Programme:** GeoDev Lab Africa, Cohort One (2026)
 
 See `project-brief.md` for full data source specifications and project scope.
+
+## Month 1 Analysis: 1 km Solid Waste Facility Catchment
+
+![Waste Catchment Map](waste_catchment_1km.png)
+
+Full analytical methodology and results documented in [`month-1-summary.md`](month-1-summary.md).

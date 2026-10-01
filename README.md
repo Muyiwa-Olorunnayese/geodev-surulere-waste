@@ -6,7 +6,8 @@
 **Core Finding:** Over **70% of Surulere's land area** falls entirely outside a 1-kilometer catchment of formal municipal waste transfer infrastructure. Formal transfer stations and dumpsites are clustered exclusively along the eastern and southern outer boundaries (Iponri TLS, Orile Landfill interface, and Costain Depot). Consequently, densely populated core residential neighborhoods—including **Itire, Lawanson, Aguda, central Ogunlana Drive, and Adelabu**—suffer from a total lack of localized intermediate waste disposal hubs.
 
 ---
-
+Name: Muyiwa Olorunnayese 
+Pod: 7
 ## Month 1 Final Analytical Map
 
 ![Surulere Waste Catchment Map](waste_catchment_1km.png)
@@ -58,3 +59,8 @@ All layers used in this analysis are available in standard open GeoPackage forma
 - `data/processed/surulerearea_waste.gpkg` – Clipped OpenStreetMap street network.
 - `data/processed/waste_catchment_1km_clipped.gpkg` – 1 km service catchment zones.
 - `data/processed/new_unserviced_waste_zones.gpkg` – Unserviced residential spatial gap layer.
+
+
+## Month 2: development environment and early Python
+Week 5: Set up Python, VS Code and the terminal. hello.py runs.
+```

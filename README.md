@@ -3,16 +3,17 @@
 ## Executive Summary & Research Question Answered
 **Research Question:** Which residential communities in Surulere Local Government Area (LGA) lack physical access (defined as a 1 km Euclidean catchment) to formal municipal solid waste disposal points and transfer loading stations?
 
-**Core Finding:** Over **70% of Surulere's land area** falls entirely outside a 1-kilometer catchment of formal municipal waste transfer infrastructure. Formal transfer stations and dumpsites are clustered exclusively along the eastern and southern outer boundaries (Iponri TLS, Orile Landfill interface, and Costain Depot). Consequently, densely populated core residential neighborhoods—including **Itire, Lawanson, Aguda, central Ogunlana Drive, and Adelabu**—suffer from a total lack of localized intermediate waste disposal hubs.
+**Core Finding:** Geometric area calculation in EPSG:32631 reveals that formal municipal waste collection infrastructure covers exactly **18.11%** (3.62 km² out of 20.01 km²) of Surulere LGA. The remaining **81.89%** (16.39 km²) represents an unserviced spatial deficit. Formal transfer stations and dumpsites are clustered exclusively along the eastern and southern outer boundaries (Iponri TLS, Orile Landfill interface, and Costain Depot). Consequently, densely populated core residential neighborhoods—including **Itire, Lawanson, Aguda, central Ogunlana Drive, and Adelabu**—suffer from a total lack of localized intermediate waste disposal hubs.
 
 ---
-Name: Muyiwa Olorunnayese 
+Name: Muyiwa Olorunnayese  
 Pod: 7
+
 ## Month 1 Final Analytical Map
 
 ![Surulere Waste Catchment Map](waste_catchment_1km.png)
 
-*Figure 1: 1 km service catchment zones (pink) around formal municipal waste facilities versus unserviced residential areas (hatched grey/purple), overlaid on the Surulere street network in EPSG:32631.*
+*Figure 1: 1 km service catchment zones (pink) around formal municipal waste facilities (covering 18.11%) versus unserviced residential areas (hatched orange, covering 81.89%), overlaid on the Surulere street network in EPSG:32631.*
 
 ---
 
@@ -48,6 +49,7 @@ To ensure full reproducibility, each week of the investigation is documented and
   2. *Row Count Verification:* Dissolved single-layer geometry confirmed in the attribute table.
   3. *Manual Feature Measurement:* Line measurement tool confirmed radial distance of exactly 1,000 m (±2 m).
   4. *Empty Geometry Validation:* Zero invalid/null geometries detected.
+  5. *Spatial Extent:* Measured service coverage at 18.11% (3.62 km²) versus 81.89% unserviced deficit (16.39 km²).
 - Synthesis of analytical surprises and outstanding data needs for Month 2 network analysis.
 
 ---
@@ -60,9 +62,8 @@ All layers used in this analysis are available in standard open GeoPackage forma
 - `data/processed/waste_catchment_1km_clipped.gpkg` – 1 km service catchment zones.
 - `data/processed/new_unserviced_waste_zones.gpkg` – Unserviced residential spatial gap layer.
 
+---
 
 ## Month 2: development environment and early Python
-Week 5: Set up Python, VS Code and the terminal. hello.py runs.
-
+Week 5: set up Python, VS Code and the terminal. hello.py runs.  
 Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
-```

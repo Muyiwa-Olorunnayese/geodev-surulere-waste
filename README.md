@@ -7,7 +7,7 @@
 
 ---
 Name: Muyiwa Olorunnayese  
-Pod: 7
+Contact: Muyiwanay@gmail.com
 
 ## Month 1 Final Analytical Map
 

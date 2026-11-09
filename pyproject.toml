@@ -3,9 +3,14 @@ name = "geodev-surulere-waste"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "Muyiwa Olorunnayese", email = "Muyiwanay@gmail.com" }
+]
 requires-python = ">=3.14"
 dependencies = [
-    "pandas>=3.0.6",
+    "geopandas>=1.2.0",
+    "matplotlib>=3.11.2",
+    "rasterio>=1.5.2",
 ]
 
 [project.scripts]

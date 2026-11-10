@@ -71,8 +71,8 @@ Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 Week 8: inspect_data.py summarises longitude and latitude in my Surulere waste points data.  
 Week 9: summary.py refactors data processing into modular functions and summarises all columns.
 
-### Month 2 reflection
+### Month 2 Reflection
 Breaking Python operations into modular, single-responsibility functions finally clicked this month, especially seeing how cleaner data flow makes refactoring effortless. Managing virtual environments and package isolation with uv initially felt fuzzy, but running scripts consistently within isolated toolchains made its practical value clear. Looking at the summary statistics of my Month 1 waste facilities, the narrow longitudinal span (3.3491° to 3.3792° E) and latitudinal range (6.4710° to 6.4915° N) numerically validate my QGIS spatial buffer findings: formal waste infrastructure is strictly confined to an isolated peripheral corridor, leaving over 81% of Surulere completely unserved.
 
-## Month 3: geospatial Python and automation
+## Month 3: Geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Surulere boundary and waste facilities in code.

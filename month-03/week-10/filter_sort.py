@@ -1,0 +1,13 @@
+import pandas as pd
+
+pop = pd.read_csv("data/raw/ward_population.csv")
+big = pop[pop["population_2024"] > 35000]
+print(big)
+print("Wards over 35,000:", len(big))
+
+ranked = pop.sort_values("population_2024", ascending=False)
+print(ranked.head())
+
+pop["population_thousands"] = pop["population_2024"] / 1000
+print(pop.head())
+print("Total population:", pop["population_2024"].sum())

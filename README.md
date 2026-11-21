@@ -77,3 +77,4 @@ Breaking Python operations into modular, single-responsibility functions finally
 ## Month 3: Geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Surulere boundary and waste facilities in code.
 - Week 11: CRS and spatial operations. Reprojected to EPSG:32631 and measured 1 km waste facility catchment reach and unserviced deficit area.
+- Week 12: Rasters. Computed NDVI for Surulere LGA and summarised it per LGA boundary polygon.

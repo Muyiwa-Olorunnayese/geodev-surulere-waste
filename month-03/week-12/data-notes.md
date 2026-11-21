@@ -1,0 +1,3 @@
+## Month 3 Raster Datasets (Local Only — Excluded via .gitignore)
+- **Digital Elevation Model (DEM):** SRTM 1 Arc-Second Global (`lagos_dem.tif`), sourced from USGS EarthExplorer (`earthexplorer.usgs.gov`), spatial resolution ~30 m (1 arc-second), EPSG:4326.
+- **Multispectral Satellite Scene:** Landsat 9 OLI/TIRS Collection 2 Level-2 (`LC08_L2SP_191055_20260221_20260227_02_T1`), Bands 4 (Red) and 5 (NIR), acquired 2026-21-02, land cloud cover < 10%, sourced from USGS EarthExplorer.
